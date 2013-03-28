@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <title>Textor CSS Editor</title>
+        <link rel="stylesheet" href="css/editor.css">
+    </head>
+    <body>
+<script type="text/plain" id="contents">html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.masthead {
+    width: 100%;
+    height: 50px;
+}
+
+.sidebar {
+    width: 50px;
+    float: right;
+}
+
+.content {
+    margin-right: 50px;
+    float: left;
+}
+</script>
+
+        <div id="container">
+            <canvas id="editor" width="1000" height="750" tabindex="1"></canvas>
+        </div>
+        <script src="../lib/textor.js"></script>
+        <script src="../lib/css-syntax.js"></script>
+        <script src="js/editor.js"></script>
+    </body>
+</html>

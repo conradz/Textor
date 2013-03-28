@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <title>Textor JavaScript Editor</title>
+        <link rel="stylesheet" href="css/editor.css">
+    </head>
+    <body>
+<script type="text/plain" id="contents">(function() {
+    function foo() {
+        console.log('Hello world!');
+    }
+
+    foo();
+})();
+</script>
+
+        <div id="container">
+            <canvas id="editor" width="1000" height="750" tabindex="1"></canvas>
+        </div>
+        <script src="../lib/textor.js"></script>
+        <script src="../lib/js-syntax.js"></script>
+        <script src="js/editor.js"></script>
+    </body>
+</html>

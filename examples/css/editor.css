@@ -1,0 +1,21 @@
+body {
+    background: #000;
+    margin: 0;
+}
+
+#container {
+    margin: 20px auto;
+    width: 1000px;
+}
+
+#editor {
+    background: #000;
+    padding: 0;
+    border: 1px solid #444a54;
+}
+
+#editor.focus {
+    background: #22252a;
+    outline: none;
+}
+
